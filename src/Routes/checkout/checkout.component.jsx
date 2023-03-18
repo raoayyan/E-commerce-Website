@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { CartContext } from "../../context/cart.context";
 
 // import CheckOutItem from "..//checkout-item/checkout-item.component";
-import CheckOutItem from '../../component/checkout-item/checkout-item.component'
+import CheckOutItem from '../../component/checkout-item/checkout-item.componen'
 const CheckOut = () => {
   const { cartItems ,carttotal} =
     useContext(CartContext);
@@ -22,6 +22,7 @@ const CheckOut = () => {
         <div className="header-block">
           <span>quantity</span>
         </div>
+        
 
         <div className="header-block">
           <span>Price</span>
